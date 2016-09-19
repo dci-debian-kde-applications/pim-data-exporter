@@ -121,7 +121,9 @@ Section: utils
 Architecture: any
 Depends: kinit, kio, ${misc:Depends}, ${shlibs:Depends}
 Replaces: kmail (<< ${source:Version}~ciBuild)
+          kdepim-doc (<< ${source:Version}~ciBuild)
 Breaks: kmail (<< ${source:Version}~ciBuild)
+        kdepim-doc (<< ${source:Version}~ciBuild)
 Homepage: http://pim.kde.org/
 Description: A PIM data exporter
  An application to assist you with backing up and archiving PIM data, 
