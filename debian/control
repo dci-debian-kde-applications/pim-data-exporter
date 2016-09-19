@@ -120,9 +120,9 @@ Package: pim-data-exporter
 Section: utils
 Architecture: any
 Depends: kinit, kio, ${misc:Depends}, ${shlibs:Depends}
-Replaces: kmail (<< ${source:Version}~ciBuild)
+Replaces: kmail (<< ${source:Version}~ciBuild),
           kdepim-doc (<< ${source:Version}~ciBuild)
-Breaks: kmail (<< ${source:Version}~ciBuild)
+Breaks: kmail (<< ${source:Version}~ciBuild),
         kdepim-doc (<< ${source:Version}~ciBuild)
 Homepage: http://pim.kde.org/
 Description: A PIM data exporter
