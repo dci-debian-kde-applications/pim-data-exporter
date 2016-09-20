@@ -120,8 +120,6 @@ Package: pim-data-exporter
 Section: utils
 Architecture: any
 Depends: kinit, kio, ${misc:Depends}, ${shlibs:Depends}
-Replaces: kmail (<< 4:16.08.1),
-Breaks: kmail (<< 4:16.08.1),
 Homepage: http://pim.kde.org/
 Description: A PIM data exporter
  An application to assist you with backing up and archiving PIM data, 
