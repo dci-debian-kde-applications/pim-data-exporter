@@ -91,7 +91,7 @@ Architecture: any
 Depends: kinit, kio, ${misc:Depends}, ${shlibs:Depends}
 Replaces: kmail (<< 4:16.11.90)
 Breaks: kmail (<< 4:16.11.90)
-Description: PIM data exporter
+Description: back up and archive PIM data
  An application to assist you with backing up and archiving PIM data,
  including the necessary configuration, for archival or transfer to another
  computer.
