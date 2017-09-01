@@ -1,12 +1,15 @@
-pim-data-exporter (4:17.08.0-1~) UNRELEASED; urgency=medium
+pim-data-exporter (4:17.08.0-1) experimental; urgency=medium
 
   * New upstream release (17.08.0)
   * Editorial changes... Drop some of the things inherited from kdepim
   * Bump Standards-Version to 4.1.0.
   * Update upstream metadata
   * Update build-deps and deps with the info from cmake
+  * Add breaks/replaces against kdepim-doc
+  * Update copyright file
+  * Release to experimental
 
- -- Maximiliano Curia <maxy@debian.org>  Mon, 28 Aug 2017 08:11:50 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 01 Sep 2017 22:08:47 +0200
 
 pim-data-exporter (4:17.08.0-0neon) xenial; urgency=medium
 
